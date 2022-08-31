@@ -1,0 +1,17 @@
+#N canvas 1253 266 538 631 10;
+#X declare -lib mrpeach;
+#X obj -473 -297 import mrpeach;
+#X floatatom -272 -53 13 0 0 3 - - -;
+#X obj -317 -210 unpackOSC;
+#X obj -295 -250 udpreceive 4559;
+#X text -320 -298 comment;
+#X text -360 -304 comment;
+#X floatatom -149 -45 13 0 0 3 - - -;
+#X obj -286 -107 unpack i i;
+#X obj -296 -166 routeOSC /wimumo/ch0;
+#X connect 2 0 8 0;
+#X connect 3 0 2 0;
+#X connect 7 0 1 0;
+#X connect 7 1 6 0;
+#X connect 8 0 7 0;
+#X coords 0 631 1 630 85 100 0;
