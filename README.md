@@ -5,6 +5,8 @@ Este repositorio contiene Sketchs y programas ejemplo para corren en la computad
 ## Sketchs de Processing
 
 Los sketchs se pueden usar instalando [Processing](https://processing.org/) y para correr cualquiera de ellos es necesario instalar la librería oscP5 (herramientas -> gestionar herramientas, buscar "oscP5"). 
+Para utilizar los ejemplos de Java en processing, debe cerrarse la aplicación de escritorio de WIMUMO.
+Para los ejemplos de Javascript, en cambio, debe utilizarse en conjunto con la aplicación de escritorio la cual se encarga de reenviar los datos.
 
 Más detalles en la [página del proyecto WIMUMO](https://wimumo.github.io).
 
